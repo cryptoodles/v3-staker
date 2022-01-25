@@ -2,7 +2,7 @@
 pragma solidity =0.7.6;
 
 import '@uniswap/v3-core/contracts/libraries/FullMath.sol';
-import '@openzeppelin/contracts/math/Math.sol';
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/Math.sol";
 
 /// @title Math for computing rewards
 /// @notice Allows computing rewards given some parameters of stakes and incentives
